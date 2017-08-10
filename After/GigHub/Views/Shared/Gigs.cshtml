@@ -24,7 +24,7 @@
             </div>
             <div class="details">
                 <span class="artist">
-                    @gig.Artist.Name
+                    <a href="@Url.Action("Details","Gigs", new { id = gig.Id })">@gig.Artist.Name</a>
 
                     @if (gig.IsCanceled)
                     {
@@ -41,7 +41,10 @@
                 </span>
                 @if (Model.ShowActions && !gig.IsCanceled)
                 {
-                    <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right js-toggle-attendance">Going?</button>
+                    <button 
+                            data-gig-id="@gig.Id" 
+                            class="btn @(Model.Attendances.Contains(gig.Id) ? "btn-info": "btn-default") 
+                            btn-sm pull-right js-toggle-attendance">Going?</button>
                 }
             </div>
         </li>
@@ -53,6 +56,9 @@
         $(document).ready(function() {
             $(".js-toggle-attendance").click(function(e) {
                 var button = $(e.target);
+                if (button.hasClass("btn-default"))
+                {
+
                 $.post("/api/attendances", { gigId: button.attr("data-gig-id") })
                     .done(function() {
                         button
@@ -62,7 +68,24 @@
                     })
                     .fail(function() {
                         alert("Something failed!");
-                    });
+                        });
+
+                }
+                else {
+                    $.ajax({
+                        url: "/api/attendances/" + button.attr("data-gig-id"),
+                        method: "DELETE",
+                    })
+                        .done(function () {
+                            button
+                                .removeClass("btn-info")
+                                .addClass("btn-default")
+                                .text("Going?")
+                        })
+                        .fail(function () {
+                            alert("Something failed.");
+                        })
+                }
             });
 
             $(".js-toggle-follow").click(function (e) {
