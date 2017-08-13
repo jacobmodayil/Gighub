@@ -93,6 +93,11 @@ C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Projects\Gighub\After\GigHub\bin\Microsoft.Web.Infrastructure.dll
 C:\Projects\Gighub\After\GigHub\bin\Newtonsoft.Json.dll
+C:\Projects\Gighub\After\GigHub\bin\Ninject.dll
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Extensions.Conventions.dll
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.Common.dll
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.Mvc.dll
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.WebApi.dll
 C:\Projects\Gighub\After\GigHub\bin\Owin.dll
 C:\Projects\Gighub\After\GigHub\bin\System.Net.Http.Formatting.dll
 C:\Projects\Gighub\After\GigHub\bin\System.Web.Helpers.dll
@@ -104,10 +109,16 @@ C:\Projects\Gighub\After\GigHub\bin\System.Web.Razor.dll
 C:\Projects\Gighub\After\GigHub\bin\System.Web.WebPages.Deployment.dll
 C:\Projects\Gighub\After\GigHub\bin\System.Web.WebPages.dll
 C:\Projects\Gighub\After\GigHub\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Gighub\After\GigHub\bin\WebActivatorEx.dll
 C:\Projects\Gighub\After\GigHub\bin\WebGrease.dll
 C:\Projects\Gighub\After\GigHub\bin\AutoMapper.xml
 C:\Projects\Gighub\After\GigHub\bin\EntityFramework.xml
 C:\Projects\Gighub\After\GigHub\bin\EntityFramework.SqlServer.xml
+C:\Projects\Gighub\After\GigHub\bin\Ninject.xml
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Extensions.Conventions.xml
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.Common.xml
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.Mvc.xml
+C:\Projects\Gighub\After\GigHub\bin\Ninject.Web.WebApi.xml
 C:\Projects\Gighub\After\GigHub\bin\System.Net.Http.Formatting.xml
 C:\Projects\Gighub\After\GigHub\bin\System.Web.Http.xml
 C:\Projects\Gighub\After\GigHub\bin\System.Web.Http.WebHost.xml
@@ -132,7 +143,6 @@ C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.Google.xml
 C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Projects\Gighub\After\GigHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.csprojResolveAssemblyReference.cache
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.Migrations.InitialModel.resources
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.Migrations.OverrideConventionsForGigsAndGenres.resources
@@ -146,3 +156,4 @@ C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.Migrations.AddNotification.reso
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.dll
 C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.pdb
+C:\Projects\Gighub\After\GigHub\obj\Debug\GigHub.csprojResolveAssemblyReference.cache
